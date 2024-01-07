@@ -1,0 +1,40 @@
+.heading-primary {
+  color: #fff;
+  font-size: 6rem;
+  letter-spacing: 1;
+  line-height: 1.2;
+
+  &--sub {
+    color: white;
+    animation-name: moveToLeft;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    margin-bottom: 100px;
+    align-self: flex-end;
+    font-size: 1.4rem;
+  }
+
+  &--animated {
+    animation: moveToRight 0.3s ease-out;
+  }
+}
+
+.heading-secondary {
+  color: #000;
+  font-size: 3.2rem;
+  letter-spacing: 1;
+  line-height: 1.2;
+
+  &--gradient {
+    background: -webkit-linear-gradient(rgba(0, 183, 255), rgba(55, 208, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.heading-tertiary {
+  color: #000;
+  font-size: 2rem;
+  letter-spacing: 1;
+  line-height: 1.2;
+}
